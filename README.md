@@ -24,8 +24,7 @@ Data Exploration and Cleaning
 - Cleaned up formatting of columns with multiple values
 - Changed strings to dictionaries, removed "slug:" "name:" statements
 - Created sample ratings plot to visualize data
-- Identified all unique release years, platforms, genres, stores, tags, and Ratings
-- -And their counts
+- Identified all unique release years, platforms, genres, stores, tags, and Ratings and their counts
 - Added month and month/day columns
 - Identified and removed duplicates
 - Removed brackets from dictionaries for compatibility with Tableau
@@ -41,7 +40,7 @@ Data is taken from RAWG video game databased (unfiltered) with games from 10 dif
 
 engineered_dataset
 - Index
-- Contains a unique identifier used to identify games and link different data files
+Contains a unique identifier used to identify games and link different data files
 - Slug
 - -Contains the game's name formatted for use in APIs, to be potentially used in future data collection
 - Name
