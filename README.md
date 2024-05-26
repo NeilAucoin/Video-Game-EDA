@@ -35,7 +35,7 @@ Data Exploration and Cleaning
 
 # ------------------ Data Explanation ---------------------
 *Final dataset is split into 5 csv files
-**Master dataset and splits to seperate cells containing multiple values into multiple entries for ease of use **in Tableau filters
+**Master dataset and splits to seperate cells containing multiple values into multiple entries for ease of use in Tableau filters
 
 Data is taken from RAWG video game databased (unfiltered) with games from 10 different stores and 50 different platforms. Databased currently contains information from 410,107 different games.
 
