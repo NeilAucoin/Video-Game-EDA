@@ -5,7 +5,7 @@ For example, a developer looking to release a Co-op Card game could enter those 
 
 
 # ------------------ Notebook Explanations ----------------
-- RAWG Scraper
+RAWG Scraper
 - Calls RAWG API to fetch game data
 - Sanitizes file names to avoid issues with saving files
 - Skips games that cause errors in order to avoid interrupting code
@@ -14,23 +14,23 @@ For example, a developer looking to release a Co-op Card game could enter those 
 - "Round 2 Scraper" functions the same but ignores games already in a given
 -- data base, used for repeat passes to catch missed/skipped games
 
-- Combine Data
+Combine Data
 - -- Combines json files from RAWG Scraper into one csv file
 - --- Skips JSON decoding errors and tracks files processed
 
-- Data Exploration and Cleaning
-- -- Used to get an overview of the data
-- -- Removed unnecessary columns
-- -- Cleaned up formatting of columns with multiple values
-- --- Changed strings to dictionaries, removed "slug:" "name:" statements
-- -- Created sample ratings plot to visualize data
-- -- Identified all unique release years, platforms, genres, stores, tags, and Ratings
-- --- And their counts
-- -- Added month and month/day columns
-- -- Identified and removed duplicates
-- -- Removed brackets from dictionaries for compatibility with Tableau
-- -- Reset index to have consistent unique identifiers per game
-- -- Averaged out player ratings and metacritic to get an average rating
+Data Exploration and Cleaning
+- -Used to get an overview of the data
+- -Removed unnecessary columns
+- -Cleaned up formatting of columns with multiple values
+- -Changed strings to dictionaries, removed "slug:" "name:" statements
+- -Created sample ratings plot to visualize data
+- -Identified all unique release years, platforms, genres, stores, tags, and Ratings
+- --And their counts
+- -Added month and month/day columns
+- -Identified and removed duplicates
+- -Removed brackets from dictionaries for compatibility with Tableau
+- -Reset index to have consistent unique identifiers per game
+- -Averaged out player ratings and metacritic to get an average rating
 
 
 # ------------------ Data Explanation ---------------------
@@ -39,39 +39,39 @@ For example, a developer looking to release a Co-op Card game could enter those 
 
 Data is taken from RAWG video game databased (unfiltered) with games from 10 different stores and 50 different platforms. Databased currently contains information from 410,107 different games.
 
-- engineered_dataset
-- -- Index
-- --- Contains a unique identifier used to identify games and link different data files
-- -- Slug
-- --- Contains the game's name formatted for use in APIs, to be potentially used in future data collection
-- -- Name
-- --- Contains the game's title
-- -- Released
-- --- Contains the game's release date formatted as YYYY-MM-DD
-- -- Platforms
-- --- Contains the platforms the game is available on
-- -- Genres
-- --- Contains all of the game's genres
-- -- Stores
-- --- Contains the stores the game can be purchased on
-- -- Tags
-- --- Contains all tags associated with the game
-- -- ESRB Rating
-- --- Contains the game's ESRB Rating
-- -- Overall Rating
-- --- Contains the game's averaged out user score and metacritic rating
+engineered_dataset
+- Index
+- -Contains a unique identifier used to identify games and link different data files
+- Slug
+- -Contains the game's name formatted for use in APIs, to be potentially used in future data collection
+- Name
+- -Contains the game's title
+- Released
+- -Contains the game's release date formatted as YYYY-MM-DD
+- Platforms
+- -Contains the platforms the game is available on
+- Genres
+- -Contains all of the game's genres
+- Stores
+- -Contains the stores the game can be purchased on
+- Tags
+- Contains all tags associated with the game
+- ESRB Rating
+- -Contains the game's ESRB Rating
+- Overall Rating
+- -Contains the game's averaged out user score and metacritic rating
 
 - split_tags
-- -- Contains all data from engineered_dataset with each game split into multiple entries (one for each tag)
+- -Contains all data from engineered_dataset with each game split into multiple entries (one for each tag)
 
 - split_stores
-- -- Contains all data from engineered_dataset with each game split into multiple entries (one for each store)
+- -Contains all data from engineered_dataset with each game split into multiple entries (one for each store)
 
 - split_platforms
-- -- Contains all data from engineered_dataset with each game split into multiple entries (one for each platform)
+- -Contains all data from engineered_dataset with each game split into multiple entries (one for each platform)
 
 - split_genres
-- -- Contains all data from engineered_dataset with each game split into multiple entries (one for each genre)
+- -Contains all data from engineered_dataset with each game split into multiple entries (one for each genre)
 
 
 # ------------------ Dashboard Links -----------------------
