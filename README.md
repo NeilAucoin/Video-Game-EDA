@@ -15,22 +15,22 @@ RAWG Scraper
 -- data base, used for repeat passes to catch missed/skipped games
 
 Combine Data
-- -Combines json files from RAWG Scraper into one csv file
-- -Skips JSON decoding errors and tracks files processed
+- Combines json files from RAWG Scraper into one csv file
+- Skips JSON decoding errors and tracks files processed
 
 Data Exploration and Cleaning
-- -Used to get an overview of the data
-- -Removed unnecessary columns
-- -Cleaned up formatting of columns with multiple values
-- -Changed strings to dictionaries, removed "slug:" "name:" statements
-- -Created sample ratings plot to visualize data
-- -Identified all unique release years, platforms, genres, stores, tags, and Ratings
-- --And their counts
-- -Added month and month/day columns
-- -Identified and removed duplicates
-- -Removed brackets from dictionaries for compatibility with Tableau
-- -Reset index to have consistent unique identifiers per game
-- -Averaged out player ratings and metacritic to get an average rating
+- Used to get an overview of the data
+- Removed unnecessary columns
+- Cleaned up formatting of columns with multiple values
+- Changed strings to dictionaries, removed "slug:" "name:" statements
+- Created sample ratings plot to visualize data
+- Identified all unique release years, platforms, genres, stores, tags, and Ratings
+- -And their counts
+- Added month and month/day columns
+- Identified and removed duplicates
+- Removed brackets from dictionaries for compatibility with Tableau
+- Reset index to have consistent unique identifiers per game
+- Averaged out player ratings and metacritic to get an average rating
 
 
 # ------------------ Data Explanation ---------------------
