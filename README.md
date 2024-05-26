@@ -40,37 +40,37 @@ Data is taken from RAWG video game databased (unfiltered) with games from 10 dif
 
 engineered_dataset
 - Index
-Contains a unique identifier used to identify games and link different data files
+  - Contains a unique identifier used to identify games and link different data files
 - Slug
-- -Contains the game's name formatted for use in APIs, to be potentially used in future data collection
+  - Contains the game's name formatted for use in APIs, to be potentially used in future data collection
 - Name
-- -Contains the game's title
+  - Contains the game's title
 - Released
-- -Contains the game's release date formatted as YYYY-MM-DD
+  - Contains the game's release date formatted as YYYY-MM-DD
 - Platforms
-- -Contains the platforms the game is available on
+  - Contains the platforms the game is available on
 - Genres
-- -Contains all of the game's genres
+  - Contains all of the game's genres
 - Stores
-- -Contains the stores the game can be purchased on
+  - Contains the stores the game can be purchased on
 - Tags
-- Contains all tags associated with the game
+  - Contains all tags associated with the game
 - ESRB Rating
-- -Contains the game's ESRB Rating
+  - Contains the game's ESRB Rating
 - Overall Rating
-- -Contains the game's averaged out user score and metacritic rating
+  - Contains the game's averaged out user score and metacritic rating
 
 - split_tags
-- -Contains all data from engineered_dataset with each game split into multiple entries (one for each tag)
+  - Contains all data from engineered_dataset with each game split into multiple entries (one for each tag)
 
 - split_stores
-- -Contains all data from engineered_dataset with each game split into multiple entries (one for each store)
+  - Contains all data from engineered_dataset with each game split into multiple entries (one for each store)
 
 - split_platforms
-- -Contains all data from engineered_dataset with each game split into multiple entries (one for each platform)
+  - Contains all data from engineered_dataset with each game split into multiple entries (one for each platform)
 
 - split_genres
-- -Contains all data from engineered_dataset with each game split into multiple entries (one for each genre)
+  - Contains all data from engineered_dataset with each game split into multiple entries (one for each genre)
 
 
 # ------------------ Dashboard Links -----------------------
