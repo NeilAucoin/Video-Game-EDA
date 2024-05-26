@@ -15,8 +15,8 @@ RAWG Scraper
 -- data base, used for repeat passes to catch missed/skipped games
 
 Combine Data
-- -- Combines json files from RAWG Scraper into one csv file
-- --- Skips JSON decoding errors and tracks files processed
+- -Combines json files from RAWG Scraper into one csv file
+- -Skips JSON decoding errors and tracks files processed
 
 Data Exploration and Cleaning
 - -Used to get an overview of the data
