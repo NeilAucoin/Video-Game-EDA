@@ -6,13 +6,13 @@ For example, a developer looking to release a Co-op Card game could enter those 
 
 # ------------------ Notebook Explanations ----------------
 - RAWG Scraper
-- -- Calls RAWG API to fetch game data
-- -- Sanitizes file names to avoid issues with saving files
-- -- Skips games that cause errors in order to avoid interrupting code
-- --- Ex: invalid file names, JSON decode errors, request issues
-- -- Saves each game's data as its own .json file
-- -- "Round 2 Scraper" functions the same but ignores games already in a given
-- --- data base, used for repeat passes to catch missed/skipped games
+- Calls RAWG API to fetch game data
+- Sanitizes file names to avoid issues with saving files
+- Skips games that cause errors in order to avoid interrupting code
+-- Ex: invalid file names, JSON decode errors, request issues
+- Saves each game's data as its own .json file
+- "Round 2 Scraper" functions the same but ignores games already in a given
+-- data base, used for repeat passes to catch missed/skipped games
 
 - Combine Data
 - -- Combines json files from RAWG Scraper into one csv file
