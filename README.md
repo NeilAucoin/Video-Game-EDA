@@ -38,7 +38,7 @@ Data Exploration and Cleaning
 
 Data is taken from RAWG video game databased (unfiltered) with games from 10 different stores and 50 different platforms. Databased currently contains information from 410,107 different games.
 
-engineered_dataset
+## engineered_dataset
 - Index
   - Contains a unique identifier used to identify games and link different data files
 - Slug
@@ -60,16 +60,16 @@ engineered_dataset
 - Overall Rating
   - Contains the game's averaged out user score and metacritic rating
 
-- split_tags
+## split_tags
   - Contains all data from engineered_dataset with each game split into multiple entries (one for each tag)
 
-- split_stores
+## split_stores
   - Contains all data from engineered_dataset with each game split into multiple entries (one for each store)
 
-- split_platforms
+## split_platforms
   - Contains all data from engineered_dataset with each game split into multiple entries (one for each platform)
 
-- split_genres
+## split_genres
   - Contains all data from engineered_dataset with each game split into multiple entries (one for each genre)
 
 
