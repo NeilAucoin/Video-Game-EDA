@@ -1,10 +1,10 @@
-# ------------------ Project Description ------------------
+# - Project Description -
 The concept for this project was to build a dashboard that can be used to identify trends in video game releases and ratings, in order to identify patterns and for use by game developers to determine what genres, platforms, stores, tags, release dates, etc. may be best to improve chances of a successful game release.
 
 For example, a developer looking to release a Co-op Card game could enter those as a tag and genre respectively and see what other tags and genres are most often used in association with these, the average rating these combinations of tags and genres tend to receive, what platforms and stores these types of games are best received on, and all possible release dates that would avoid other big game releases.
 
 
-# ------------------ Notebook Explanations ----------------
+# - Notebook Explanations -
 RAWG Scraper
 - Calls RAWG API to fetch game data
 - Sanitizes file names to avoid issues with saving files
@@ -32,7 +32,7 @@ Data Exploration and Cleaning
 - Averaged out player ratings and metacritic to get an average rating
 
 
-# ------------------ Data Explanation ---------------------
+# - Data Explanation -
 *Final dataset is split into 5 csv files  
 **Master dataset and splits to seperate cells containing multiple values into multiple entries for ease of use in Tableau filters
 
@@ -73,7 +73,7 @@ Data is taken from RAWG video game databased (unfiltered) with games from 10 dif
   - Contains all data from engineered_dataset with each game split into multiple entries (one for each genre)
 
 
-# ------------------ Dashboard Links -----------------------
+# - Dashboard Links -
 Features Ratings Dashboard:  
 https://public.tableau.com/app/profile/neil.aucoin/viz/VideoGameFeatureRatings/BestRatedFeatures?publish=yes
 
