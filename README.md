@@ -77,5 +77,9 @@ Data is taken from RAWG video game databased (unfiltered) with games from 10 dif
 Features Ratings Dashboard:  
 https://public.tableau.com/app/profile/neil.aucoin/viz/VideoGameFeatureRatings/BestRatedFeatures?publish=yes
 
+![Common Features Popularity Dashboard](https://github.com/NeilAucoin/Video-Game-Features--Exploratory-Data-Analysis/blob/main/Assets/features_popularity_dashboard.PNG?raw=true)
+
 Most Common Features Dashboard:  
 https://public.tableau.com/app/profile/neil.aucoin/viz/MostCommonVideoGameFeatures/MostCommonFeatures?publish=yes
+
+![Ratings Dashboard](https://github.com/NeilAucoin/Video-Game-Features--Exploratory-Data-Analysis/blob/main/Assets/ratings_dashboard.PNG?raw=true)
